@@ -4,10 +4,43 @@
     <meta charset="utf-8">
     <title>Form</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <a href="cart.html"></a>
-    <script src"app.js"></script>
   </head>
   <body>
+    
+    <fieldset>
 
+    <section> 
+    <a href="cart.html">cart page</a>
+    </section>  
+
+      <form id="submitForm">
+
+        <legend>Add Items to your List!</legend>
+
+        <label for="name">Type of Items: </label>
+        <select id="pictures">
+          <option value=""></option>
+        </select>
+
+        <label for="street">Street: </label>
+        <input name="street" type="text" size="20"/>
+
+        <label for="city">City: </label>
+        <input name="city" type="text" />
+
+        <label for="state">State</label>
+        <input name="state" type="text" />
+
+        <label for="zipCode">ZipCode</label>
+        <input name="zipcode" type="number">
+
+        <button type="submit">Submit Changes!</button>
+
+      </section>
+    </fieldset> 
+  </form>
+    <script src="app.js"></script>
+    
+    <img id="pics" src="" alt="" title="" />
   </body>
 </html>
